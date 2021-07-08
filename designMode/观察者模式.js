@@ -48,3 +48,7 @@ let s = new Subject()
 let o1 = new Observer('o1', s)
 s.setState(1)
 
+const arr=['a','b']
+
+console.log('1',arr['a'])
+
