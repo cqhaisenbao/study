@@ -2,7 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    entry: './VueStudy/index.js',
+    entry: './js/deepclone.js',
     output: {
         path: __dirname,
         filename: "./dist/bundle.js"
